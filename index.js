@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT ?? 8080;
 
 app.get("/", (req, res) => {
-  res.send("Your React app is running!");
+  res.send("Your React app is running V2!");
 });
 
 app.get("/exit", (req, res) => {
